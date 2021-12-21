@@ -41,8 +41,8 @@ Five mythical step to generate Keys
       - N using during the encryption and decryption.                   
       
   3-  Euler’s Totient Function 
-      -  This function outputs the number of integers between 0 and n that are relatively prime to n                           
-      -  means  Φ(n)= (p-1)(q-1)                          
+      -  This function outputs the number of integers between (0) and (n) that are relatively prime to n                                                                           
+      -  means  Φ(n)= (p-1)(q-1)                                                             
       
   4-  Choose e                                      
       - Must be less than Φ(n)                 
