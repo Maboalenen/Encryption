@@ -53,5 +53,5 @@ Five mythical step to generate Keys
   
   Result
   ----
-  public key = e,n    
-  private key = d,n 
+    * public key = e,n    
+    * private key = d,n 
