@@ -27,9 +27,9 @@ Generate-keys
 > RSA Cipher there are two key pairs
 > Each user has their own encryption and decryption procedures, e,n and d,n , 
    
-   E Public exponent  
-   D Secret exponent  
-   N is the module number  
+   * E Public exponent  
+   * D Secret exponent  
+   * N is the module number  
 
 Five mythical step to generate Keys 
 -----
