@@ -51,7 +51,7 @@ Five mythical step to generate Keys
   5. Choose d   
        * (e*d mod Φ(n) =1 )                         
   
-  Result
-  ----
+ ## Result
+
      * public key = e,n    
      * private key = d,n 
