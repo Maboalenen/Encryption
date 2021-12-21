@@ -29,10 +29,11 @@ Generate-keys
   - E Public exponent  
   - D Secret exponent  
   - N is the module number  
-> Five mythical step to generate Keys
-  1-  two prime number p,q
-      - p and q length greater than 512
-  2-  N=multiplication of the two prime number (p,q)    
+> Five mythical step to generate Keys 
+---------                
+  1-  two prime number p,q                   
+      - p and q length greater than 512             
+  2-  N=multiplication of the two prime number (p,q)              
       - N = (p)(q) 
       - N using during the encryption and decryption.       
   3-  Euler’s Totient Function 
