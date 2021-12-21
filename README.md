@@ -11,7 +11,7 @@ RSA
 
 * Digital signatures                          
 
-> The receiver may need to verify that a transmitted message actually originated from the sender (signature)This is done using the sender’s decryption key, and the signature can later be verified by anyone, using the correspondingpublic encryption key
+> The receiver may need to verify that a transmitted message actually originated from the sender (signature)This is done using the sender’s decryption key, and the signature can later be verified by anyone, using the corresponding public encryption key
 
 RSA operation
 -----
@@ -30,7 +30,20 @@ Generate-keys
   - D Secret exponent  
   - N is the module number  
 > Five mythical step to generate Keys
-
-
-
-
+  1-  two prime number p,q
+      - p and q length greater than 512
+  2-  N=multiplication of the two prime number (p,q)    
+      - N = (p)(q) 
+      - N using during the encryption and decryption.       
+  3-  Euler’s Totient Function 
+      -  This function outputs the number of integers between 0 and n that are relatively prime to n
+      -  means  Φ(n)= (p-1)(q-1)
+  4-  Choose e
+      - Must be less than Φ(n)
+      - coprime with n,Φ(n) 
+  5- Choose d  (e*d mod Φ(n) =1 )
+  
+  Result
+  ----
+  public key = e,n    
+  private key = d,n 
