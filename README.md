@@ -26,8 +26,8 @@ Generate-keys
 > Key length greater than 1024.   
 > RSA Cipher there are two key pairs
 > Each user has their own encryption and decryption procedures, e,n and d,n ,
- <br /> - E Public exponent  
- <br /> - D Secret exponent  
+    - E Public exponent  
+    - D Secret exponent  
  <br /> - N is the module number  
 
 Five mythical step to generate Keys 
