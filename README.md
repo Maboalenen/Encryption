@@ -37,11 +37,11 @@ Five mythical step to generate Keys
   1-  two prime number p,q length greater than 512                  
       
   2-  N=multiplication of the two prime number (p,q)                      
-      - N = (p)(q)                  
-      - N using during the encryption and decryption.                   
+      * N = (p)(q)                  
+      * N using during the encryption and decryption.                   
       
   3-  Euler’s Totient Function 
-      -  This function outputs the number of integers between (0) and (n) that are relatively prime to n                                                                           
+      *  This function outputs the number of integers between (0) and (n) that are relatively prime to n                                                                           
       -  means  Φ(n)= (p-1)(q-1)                                                             
       
   4-  Choose e                                      
