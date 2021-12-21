@@ -15,8 +15,8 @@ RSA
 
 RSA operation
 -----
-RSA algorithm involves four step 
-1- Key-generation. (e,d)
-2- key distribution
-3- Encryption 
-4- Decryption  
+RSA algorithm involves four step    
+1- Key-generation. (e,d).   
+2- key distribution.    
+3- Encryption     
+4- Decryption       
