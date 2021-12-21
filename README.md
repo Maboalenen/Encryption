@@ -19,4 +19,18 @@ RSA algorithm involves four step
 1- Key-generation. (e,d).   
 2- key distribution.    
 3- Encryption     
-4- Decryption       
+4- Decryption   
+
+Generate-keys 
+-----
+> Key length greater than 1024.   
+> RSA Cipher there are two key pairs
+> Each user has their own encryption and decryption procedures, e,n and d,n ,
+  - E Public exponent  
+  - D Secret exponent  
+  - N is the module number  
+> Five mythical step to generate Keys
+
+
+
+
