@@ -27,28 +27,29 @@ Generate-keys
 > RSA Cipher there are two key pairs
 > Each user has their own encryption and decryption procedures, e,n and d,n , 
    
-  ... E Public exponent  
-  ... D Secret exponent  
-  ... N is the module number  
+   E Public exponent  
+   D Secret exponent  
+   N is the module number  
 
 Five mythical step to generate Keys 
 -----
               
-  1-  two prime number p,q length greater than 512                  
+  1.  two prime number p,q length greater than 512                  
       
-  2-  N=multiplication of the two prime number (p,q)                      
+  2.  N=multiplication of the two prime number (p,q)                      
       * N = (p)(q)                  
       * N using during the encryption and decryption.                   
       
-  3-  Euler’s Totient Function 
+  3.  Euler’s Totient Function 
       *  This function outputs the number of integers between (0) and (n) that are relatively prime to n                                                                           
       -  means  Φ(n)= (p-1)(q-1)                                                             
       
-  4-  Choose e                                      
+  4.  Choose e                                      
       - Must be less than Φ(n)                 
       - coprime with n,Φ(n)            
       
-  5- Choose d  (e*d mod Φ(n) =1 )                         
+  5. Choose d   
+        (e*d mod Φ(n) =1 )                         
   
   Result
   ----
