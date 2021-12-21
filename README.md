@@ -42,14 +42,14 @@ Five mythical step to generate Keys
       
   3.  Euler’s Totient Function 
       *  This function outputs the number of integers between (0) and (n) that are relatively prime to n                                                                           
-      -  means  Φ(n)= (p-1)(q-1)                                                             
+      *  means  Φ(n)= (p-1)(q-1)                                                             
       
   4.  Choose e                                      
-      - Must be less than Φ(n)                 
-      - coprime with n,Φ(n)            
+      * Must be less than Φ(n)                 
+      * coprime with n,Φ(n)            
       
   5. Choose d   
-        (e*d mod Φ(n) =1 )                         
+       * (e*d mod Φ(n) =1 )                         
   
   Result
   ----
