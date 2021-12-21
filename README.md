@@ -12,3 +12,11 @@ RSA
 * Digital signatures                          
 
 > The receiver may need to verify that a transmitted message actually originated from the sender (signature)This is done using the sender’s decryption key, and the signature can later be verified by anyone, using the correspondingpublic encryption key
+
+RSA operation
+-----
+RSA algorithm involves four step 
+1- Key-generation. (e,d)
+2- key distribution
+3- Encryption 
+4- Decryption  
